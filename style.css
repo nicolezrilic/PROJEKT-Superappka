@@ -28,6 +28,46 @@ body {
 	margin: 0 auto; /* pruh je na stránce vycentrovaný */
 	background: white;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	padding: 30px;
 }
+
+.appka {
+	font-weight: bold;
+}
+
+
+.obal ul {
+	display: flex;
+	justify-content: left;	
+	list-style: none;
+	padding: 0;
+}
+
+.obal li {
+	padding: 30px 30px 30px 0;
+}
+
+.obal li a {
+	text-decoration: none;
+	color: black;
+}
+
+.obal li a:hover {
+	background-color: #654597;
+	padding: 20px;
+}
+
+footer {
+	background-color: #654597;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer p {
+	margin: 0;
+}
+
 
 /* ----- zde začni psát vlastní CSS ----- */
